@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid 0.1px; */
+}
+p,
+a {
+  font-family: "Instrument sans", sans-serif;
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+i {
+  font-family: "Instrument Serif", serif;
+  font-weight: 500;
+}
+body {
+  background-image: url(./media/bg-sky.png);
+  background-size: contain;
+}
+body > header {
+  background-image: url(./media/banner.png);
+  background-size: cover;
+  height: 200px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  text-align: center;
+  letter-spacing: 20%;
+  font-size: 30px;
+}
+#middle-page {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  gap: 30px;
+}
+#welcome {
+  text-align: center;
+}
+#welcome h2 {
+  font-size: 60px;
+}
+/* ASIDE LEFT */
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+/* ASIDE LEFT: NAV */
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 100px 10px 5px;
+  position: relative;
+}
+nav img {
+  width: 80%;
+  position: absolute;
+  top: -50px;
+  align-self: center;
+}
+nav ul h3 {
+  background-color: #cfd7e2;
+  padding: 5px 10px;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
