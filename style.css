@@ -324,6 +324,7 @@ main {
   transition: 0.3s;
 }
 #thanks .card:hover {
+  filter: brightness(120%);
   transform: translateY(-10px) scale(110%);
 }
 #thanks > .content > .card img {
