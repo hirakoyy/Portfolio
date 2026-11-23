@@ -18,14 +18,14 @@ i {
 body {
   display: block;
   padding: 20px 0;
-  background-image: url(./media/bg-sky1.png);
+  background-image: url(./asset/bg-sky1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 /* BANNER */
 body > header {
-  background-image: url(./media/banner.png);
+  background-image: url(./asset/banner.png);
   background-size: cover;
   background-position: right;
   height: 200px;
@@ -438,7 +438,7 @@ footer p {
   }
 }
 /* body > header {
-  background-image: url(./media/banner.png);
+  background-image: url(./asset/banner.png);
   background-size: cover;
   background-position: right;
   height: 200px;
